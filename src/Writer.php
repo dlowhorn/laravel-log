@@ -1,7 +1,7 @@
 <?php
 namespace Edujugon\Log;
 
-use Illuminate\Log\Writer as LogWriter;
+use Illuminate\Log\Logger as LogWriter;
 use Monolog\Formatter\LineFormatter;
 
 class Writer extends LogWriter
