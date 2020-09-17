@@ -56,7 +56,7 @@ class Log
     protected $excludeFromFormat = [];
 
     /**
-     * @var \Illuminate\Log\Writer
+     * @var \Illuminate\Log\Logger
      */
     protected $log;
 
@@ -262,7 +262,7 @@ class Log
     }
 
     /**
-     * instance of \Illuminate\Log\Writer
+     * instance of \Illuminate\Log\Logger
      */
     private function loadLogger()
     {
